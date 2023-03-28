@@ -6,13 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oriflame Cosmetic</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./icons/fontawesome-free-5.15.4-web/css/all.css">
 </head>
 <body>
     <!--make website---->
     <div class="wrapper">
         <!---make menuTop--->
         <div class="menuTop">
-            <div></div>
+            <div>
+                <div><i class="fas fa-bars"></i>
+                    <div class="menuFullPage"></div>
+                </div>
+                <div>
+                    <i class="far fa-user"></i>
+                    <div class="menuLeft"></div>
+                </div>
+                <div><a href="#">Our story</a></div>
+                <div><a href="#">Join us</a></div>
+            </div>
             <div></div>
             <div></div>
         </div>
@@ -20,6 +31,39 @@
     </div>
     <!--End of make website---->
 
+    <script>
+        let menu=document.querySelector("div.menuTop>div:nth-of-type(1)>div:nth-of-type(1)")
     
-</body>
+        menu.addEventListener("click",function(){
+            
+             document.querySelector("div.menuTop>div:nth-of-type(1)>div:nth-of-type(1)>div.menuFullPage").classList.toggle("active")
+             document.querySelector("div.menuTop>div:nth-of-type(1)>div:nth-of-type(1)>i").
+             classList.toggle("fa-times")
+             
+        })
+         
+         document.querySelector("div.menuTop>div:nth-of-type(1)>div:nth-of-type(2)>i").addEventListener("mouseenter",function(){
+            this.classList.remove("fa-user") 
+            this.classList.remove("far") 
+            this.classList.add("fas")
+            this.classList.add("fa-user-alt")
+         })
+
+         document.querySelector("div.menuTop>div:nth-of-type(1)>div:nth-of-type(2)>i").addEventListener("mouseleave",function(){
+            this.classList.remove("fa-user-alt") 
+            this.classList.remove("fas") 
+            this.classList.add("far")
+            this.classList.add("fa-user")
+        })
+
+            document.querySelector("div.menuTop>div:nth-of-type(1)>div:nth-of-type(2)>i").
+            addEventListener("click", function(){
+
+            document.querySelector("div.menuTop>div:nth-of-type(1)>div:nth-of-type(2)>div.menuLeft")
+            .classList.toggle("activeLeft")
+        })
+
+
+    </script> 
+    
 </html>
