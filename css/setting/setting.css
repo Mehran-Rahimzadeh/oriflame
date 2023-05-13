@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: sans;
+  src: url("../../fonts/OriflameSans20-Regular.eot");
+  src: url("../../fonts/OriflameSans20-Regular.ttf");
+  src: url("../../fonts/OriflameSans20-Regular.woff");
+  src: url("../../fonts/OriflameSans20-Regular.woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: sans !important; }
