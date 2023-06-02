@@ -1,0 +1,9 @@
+div.menuTop {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: lightgray;
+  column-gap: 1px; }
+  div.menuTop > div {
+    background-color: blueviolet; }
