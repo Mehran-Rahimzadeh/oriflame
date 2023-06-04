@@ -3,7 +3,49 @@ div.menuTop {
   height: 80px;
   display: flex;
   flex-flow: row wrap;
-  background-color: lightgray;
   column-gap: 1px; }
   div.menuTop > div {
-    background-color: blueviolet; }
+    height: inherit;
+    flex: 1 0 0; }
+  div.menuTop > div:nth-of-type(1) {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around; }
+    div.menuTop > div:nth-of-type(1) > span {
+      padding: 0 10px; }
+    div.menuTop > div:nth-of-type(1) > span:nth-of-type(1) > i, div.menuTop > div:nth-of-type(1) > span:nth-of-type(2) > i {
+      font-size: 22px;
+      color: gray; }
+    div.menuTop > div:nth-of-type(1) > span:nth-of-type(3) > a, div.menuTop > div:nth-of-type(1) > span:nth-of-type(4) > a {
+      font-size: 22px;
+      color: gray;
+      text-transform: capitalize; }
+  div.menuTop > div:nth-of-type(2) {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; }
+    div.menuTop > div:nth-of-type(2) > svg {
+      width: 150px; }
+  div.menuTop > div:nth-of-type(3) {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px; }
+    div.menuTop > div:nth-of-type(3) > input[type=text] {
+      width: 150px;
+      height: 30px;
+      background-color: #f1f1f1;
+      border: unset;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      outline: unset;
+      padding-left: 10px; }
+    div.menuTop > div:nth-of-type(3)::placeholder {
+      color: whitesmoke;
+      text-align: center; }
