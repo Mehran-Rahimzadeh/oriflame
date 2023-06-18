@@ -1,0 +1,5 @@
+.menuTop > div:nth-of-type(3) > input {
+  width: 180px; }
+
+.menuTop > div:nth-of-type(1) > span > a {
+  color: #333333; }

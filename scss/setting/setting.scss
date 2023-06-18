@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     text-decoration: none;
 
 }
@@ -15,10 +15,10 @@ a{
     src: url(../../fonts/OriflameSans20-Regular.eot);
     src: url(../../fonts/OriflameSans20-Regular.ttf);
     src: url(../../fonts/OriflameSans20-Regular.woff);
-    src: url(../../fonts/OriflameSans20-Regular.woff2);
+    src: url(../../fonts/OriflameSans20-Regular.woff2); 
 }
 
 body{
     font-family: sans !important;
-
 }
+

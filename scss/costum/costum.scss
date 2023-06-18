@@ -1,0 +1,35 @@
+@mixin middle{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-direction: column
+    
+}
+
+.flex-center{
+    @include middle;
+    justify-content:center;
+}
+
+.flex-around{
+    @include middle;
+    justify-content:space-around;
+}
+
+.flex-between{
+    @include middle;
+    justify-content:space-between;
+}
+
+div.offcanvas>div.offcanvas-body{
+    >p:nth-of-type(1),>p:nth-of-type(2){
+        font-size: 12px;
+        margin-bottom:-10px;
+    }
+}
+
+div.offcanvas button:nth-of-type(2){
+ border: solid rgb(233, 231, 231) 1px !important;  
+ 
+}
+
