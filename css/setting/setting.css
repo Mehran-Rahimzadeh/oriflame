@@ -4,8 +4,8 @@
   box-sizing: border-box !important;
   text-decoration: none; }
 
-a {
-  text-decoration: none; }
+a{
+  text-decoration: none !important; }
 
 @font-face {
   font-family: sans;
