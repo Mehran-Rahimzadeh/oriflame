@@ -1,51 +1,6 @@
-.f-col-center {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  flex-direction: column; }
-
-.f-col-around {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-direction: column; }
-
-.f-col-between {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-direction: row; }
-
-.f-row-center {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  flex-direction: row; }
-
-.f-row-around {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-direction: row; }
-
-.f-row-between {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-direction: row; }
-
+@import url(./offcanvas.css);
+@import url(./flexClass.css);
+@import url(./subMenu.css);
 div.bestOffers {
   height: 500px !important; }
   div.bestOffers > div.offersList > ul > li > a {
@@ -57,30 +12,17 @@ div.bestOffers {
       background-color: whitesmoke; }
 
 .active {
-  display: flex !important;
-  background-color: red !important; }
+  display: flex !important; }
 
 .noneActive {
-  display: none !important;
-  background-color: white !important; }
+  display: none !important; }
 
-div.offcanvas {
-  width: 330px !important; }
-  div.offcanvas > div:nth-of-type(1) > div > a > p {
-    font-size: 12px; }
-  div.offcanvas > div:nth-of-type(1) i {
-    margin-right: 5px !important; }
-  div.offcanvas > div.offcanvas-body {
-    max-height: 600px !important; }
-    div.offcanvas > div.offcanvas-body > input {
-      height: 10px !important; }
-    div.offcanvas > div.offcanvas-body > p:nth-of-type(1), div.offcanvas > div.offcanvas-body > p:nth-of-type(2) {
-      font-size: 12px; }
-    div.offcanvas > div.offcanvas-body > button:nth-of-type(1) {
-      margin-top: -10px !important;
-      margin-bottom: 7px !important; }
-    div.offcanvas > div.offcanvas-body > button:nth-of-type(2) {
-      border: solid #e9e7e7 1px !important; }
-      div.offcanvas > div.offcanvas-body > button:nth-of-type(2) > p {
-        font-size: 12px;
-        font-weight: 600; }
+div.offersImage > div:nth-of-type(2) > a > img {
+  width: 230px !important;
+  height: auto;
+  padding: 2px;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important; }

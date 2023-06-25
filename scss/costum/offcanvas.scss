@@ -1,0 +1,32 @@
+
+// ----------Offcanvas--------
+div.offcanvas{
+    width: 330px!important; 
+    >div:nth-of-type(1)>div>a>p{
+        font-size: 12px;
+    }
+    >div:nth-of-type(1) i{
+        margin-right: 5px !important;
+    }
+    >div.offcanvas-body{
+       max-height: 600px !important;
+        >input{
+            height: 10px !important
+        }
+        >p:nth-of-type(1),>p:nth-of-type(2){
+            font-size: 12px;
+        }
+        >button:nth-of-type(1){
+            margin-top: -10px !important;
+            margin-bottom: 7px !important;
+        }
+        >button:nth-of-type(2){
+        border: solid rgb(233, 231, 231) 1px !important;  
+            >p{
+                font-size: 12px;
+                font-weight: 600;
+            }
+       }
+    }
+}
+// ----------End of Offcanvas---------- 

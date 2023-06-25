@@ -16,6 +16,7 @@ addEventListener("mouseleave",function(){
 
 // -------Best Offers-------
 // --------hover-Function---------
+
 function hover(id_1,id_2){
     document.querySelector(id_1).
     addEventListener("mouseenter",function(){
@@ -23,6 +24,7 @@ function hover(id_1,id_2){
         document.getElementById(id_2).classList.add("active")
    })}
 function not_hover(id_1,id_2){
+   
     document.querySelector(id_1).
     addEventListener("mouseleave",function(){
         document.getElementById(id_2).classList.remove("active");
@@ -30,11 +32,20 @@ function not_hover(id_1,id_2){
     })}
 // --------End of hover-Function---------
 // ----calling hover---
-hover("#Inspiration","Inspiration1")
-not_hover("#Inspiration","Inspiration1")
+// hover("#eCatalogue","eCatalogue1")
+// not_hover("#eCatalogue","eCatalogue1");
 
-// ----End of calling hover---
+// hover("#Inspiration","Inspiration1")
+// not_hover("#Inspiration","Inspiration1")
 
+// // ----End of calling hover---
+// function upper(id_1,id_2){
+//     document.querySelector(id_1).
+//     addEventListener("mouseenter",function(){
+//         // document.getElementById(id_2).classList.remove("noneActive");
+//         document.getElementById(id_2).classList.add("upper")
+//    })}
+//    upper("#Inspiration","Inspiration1");
 
  
 // -------End of Best Offers-------

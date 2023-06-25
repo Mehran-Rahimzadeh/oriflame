@@ -1,0 +1,58 @@
+ul.subMenu > li > a:hover + ul {
+  display: flex !important; }
+
+ul.subMenu > li > ul {
+  width: calc(80vw);
+  height: 480px;
+  background-color: rgba(128, 128, 128, 0);
+  position: absolute;
+  left: calc(17vw);
+  top: calc(80px);
+  display: none !important; }
+  ul.subMenu > li > ul:hover {
+    display: flex !important; }
+
+ul.subMenu > li:nth-of-type(4) > ul > li, ul.subMenu > li:nth-of-type(5) > ul > li, ul.subMenu > li:nth-of-type(6) > ul > li
+, ul.subMenu > li:nth-of-type(7) > ul > li, ul.subMenu > li:nth-of-type(8) > ul > li, ul.subMenu > li:nth-of-type(9) > ul > li
+, ul.subMenu > li:nth-of-type(10) > ul > li, ul.subMenu > li:nth-of-type(11) > ul > li, ul.subMenu > li:nth-of-type(12) > ul > li {
+  width: 150px;
+  height: 400px;
+  margin: 2px; }
+  ul.subMenu > li:nth-of-type(4) > ul > li > a, ul.subMenu > li:nth-of-type(5) > ul > li > a, ul.subMenu > li:nth-of-type(6) > ul > li
+>
+a, ul.subMenu > li:nth-of-type(7) > ul > li > a, ul.subMenu > li:nth-of-type(8) > ul > li > a, ul.subMenu > li:nth-of-type(9) > ul > li
+>
+a, ul.subMenu > li:nth-of-type(10) > ul > li > a, ul.subMenu > li:nth-of-type(11) > ul > li > a, ul.subMenu > li:nth-of-type(12) > ul > li > a {
+    color: #333333;
+    font-weight: 600; }
+  ul.subMenu > li:nth-of-type(4) > ul > li > ul > a, ul.subMenu > li:nth-of-type(5) > ul > li > ul > a, ul.subMenu > li:nth-of-type(6) > ul > li
+>
+ul > a, ul.subMenu > li:nth-of-type(7) > ul > li > ul > a, ul.subMenu > li:nth-of-type(8) > ul > li > ul > a, ul.subMenu > li:nth-of-type(9) > ul > li
+>
+ul > a, ul.subMenu > li:nth-of-type(10) > ul > li > ul > a, ul.subMenu > li:nth-of-type(11) > ul > li > ul > a, ul.subMenu > li:nth-of-type(12) > ul > li > ul > a {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333333 !important; }
+  ul.subMenu > li:nth-of-type(4) > ul > li > ul > li > a, ul.subMenu > li:nth-of-type(5) > ul > li > ul > li > a, ul.subMenu > li:nth-of-type(6) > ul > li
+>
+ul > li > a, ul.subMenu > li:nth-of-type(7) > ul > li > ul > li > a, ul.subMenu > li:nth-of-type(8) > ul > li > ul > li > a, ul.subMenu > li:nth-of-type(9) > ul > li
+>
+ul > li > a, ul.subMenu > li:nth-of-type(10) > ul > li > ul > li > a, ul.subMenu > li:nth-of-type(11) > ul > li > ul > li > a, ul.subMenu > li:nth-of-type(12) > ul > li > ul > li > a {
+    font-size: 13px;
+    color: #777777; }
+
+div#eCatalogue1, div#Inspiration1 {
+  height: inherit;
+  text-align: center;
+  max-height: 480px; }
+
+div#Inspiration1 > a {
+  width: 250px;
+  height: auto; }
+  div#Inspiration1 > a > img {
+    width: inherit;
+    height: inherit; }
+  div#Inspiration1 > a > span {
+    position: relative;
+    bottom: 140px;
+    opacity: 0.9; }

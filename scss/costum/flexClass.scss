@@ -1,0 +1,45 @@
+// -------flex Claasse---------
+@mixin middle{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.f-col-center{
+    @include middle;
+    justify-content:center;
+    flex-direction: column; 
+}
+
+.f-col-around{
+    @include middle;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.f-col-between{
+    @include middle;
+    justify-content:space-between;
+    flex-direction: row;
+  }
+
+.f-row-center{
+    @include middle;
+    justify-content:center;
+    flex-direction: row;
+  }
+
+.f-row-around{
+    @include middle;
+    justify-content:space-around;
+    flex-direction: row;
+  }
+
+.f-row-between{
+    @include middle;
+    justify-content:space-between;
+    flex-direction: row;
+   }
+// -----End of Flex Classes-------
+  

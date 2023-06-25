@@ -1,50 +1,8 @@
-// -------flex Claasse---------
-@mixin middle{
-    display:flex;
-    flex-flow: row wrap;
-    align-items: center;
-    flex-direction: column; 
-}
+@import url(./offcanvas.css);
+@import url(./flexClass.css);
+@import url(./subMenu.css);
 
-.f-col-center{
-    @include middle;
-    justify-content:center;
-    flex-direction: column; 
-}
 
-.f-col-around{
-    @include middle;
-    justify-content:space-around;
-    flex-direction: column;
-}
-
-.f-col-between{
-    @include middle;
-    justify-content:space-between;
-    flex-direction: row;
-  }
-
-.f-row-center{
-    @include middle;
-    justify-content:center;
-    flex-direction: row;
-  }
-
-.f-row-around{
-    @include middle;
-    justify-content:space-around;
-    flex-direction: row;
-  }
-
-.f-row-between{
-    @include middle;
-    justify-content:space-between;
-    flex-direction: row;
-   }
-// -----End of Flex Classes-------
-  
-
-  
 
 
 // -----------------Best Offers---------------
@@ -63,48 +21,34 @@ div.bestOffers{
     }
 // --------End 0f General Setting------
 
+
+
+
 // -------------hover apear------------
-
-// ----------End of hover apear--------
-// -----------------End of Best Offers---------
-
-
 .active{
     display: flex !important;
-    background-color: red !important;
-}
+   }
 .noneActive{
     display: none !important;
-    background-color:white !important;
+   }
+
+
+// ----------End of hover apear--------
+div.offersImage{
+    >div:nth-of-type(2)>a>img{
+        width: 230px !important;
+        height: auto;
+        padding: 2px;
+        border-radius: 10px !important;
+        -webkit-border-radius: 10px !important;
+        -moz-border-radius: 10px !important;
+        -ms-border-radius: 10px !important;
+        -o-border-radius: 10px !important;
+     }
 }
-// ----------Offcanvas--------
-div.offcanvas{
-    width: 330px!important; 
-    >div:nth-of-type(1)>div>a>p{
-        font-size: 12px;
-    }
-    >div:nth-of-type(1) i{
-        margin-right: 5px !important;
-    }
-    >div.offcanvas-body{
-       max-height: 600px !important;
-        >input{
-            height: 10px !important
-        }
-        >p:nth-of-type(1),>p:nth-of-type(2){
-            font-size: 12px;
-        }
-        >button:nth-of-type(1){
-            margin-top: -10px !important;
-            margin-bottom: 7px !important;
-        }
-        >button:nth-of-type(2){
-        border: solid rgb(233, 231, 231) 1px !important;  
-            >p{
-                font-size: 12px;
-                font-weight: 600;
-            }
-       }
-    }
-}
-// ----------End of Offcanvas---------- 
+
+// -----------------End of Best Offers---------
+
+// ------------SubMenue----------
+
+// -----------End of SubMenue----------

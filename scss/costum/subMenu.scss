@@ -1,0 +1,68 @@
+ul.subMenu>li{
+   
+    >a{
+        &:hover + ul{
+            display: flex !important;
+        }
+    }
+    >ul{
+        width: calc(80vw);
+        height: 480px;
+        background-color: rgba(128, 128, 128, 0);
+        position:absolute;
+        left:calc(17vw);
+        top: calc(80px);
+        display: none !important;
+        &:hover{
+            display: flex !important;
+            }
+        }
+        &:nth-of-type(4)>ul>li,&:nth-of-type(5)>ul>li,&:nth-of-type(6)>ul>li
+        ,&:nth-of-type(7)>ul>li,&:nth-of-type(8)>ul>li,&:nth-of-type(9)>ul>li
+        ,&:nth-of-type(10)>ul>li,&:nth-of-type(11)>ul>li,&:nth-of-type(12)>ul>li{
+            width:150px ;
+            height: 400px;
+            // background-color: rgb(129, 187, 132);
+            margin: 2px;
+            >a{
+                color: #333333;
+                font-weight: 600;
+            }
+            >ul>a{
+                font-size: 12px;
+                font-weight: 600;
+                color: #333333 !important;
+            }
+            >ul>li>a{
+                font-size: 13px;
+                color:rgb(119, 119, 119);
+            }
+            
+            
+        }
+    }
+    
+    div#eCatalogue1 ,div#Inspiration1{
+        height:inherit;
+        text-align: center;
+        // background-color: aqua;
+        max-height: 480px;
+    } 
+
+    div#Inspiration1{
+        >a{
+            width: 250px;
+            height: auto;
+            >img{
+                width: inherit;
+                height: inherit;
+            }
+            >span{
+                position:relative;
+                bottom: 140px;
+                opacity: 0.9;
+            }
+        }
+    }
+
+    
