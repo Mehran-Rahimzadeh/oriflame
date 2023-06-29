@@ -1,0 +1,47 @@
+.f-col-center {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: column; }
+
+.f-col-around {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-direction: column; }
+
+.f-col-between {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row; }
+
+.f-row-center {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: row; }
+
+.f-row-around {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-direction: row; }
+
+.f-row-between {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row; }

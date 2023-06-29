@@ -1,5 +1,9 @@
 ul.subMenu>li{
-   
+    &:nth-of-type(13)>a,&:nth-of-type(14)>a{
+        &:hover{
+            color: gray;
+        }
+    }
     >a{
         &:hover + ul{
             display: flex !important;
@@ -7,15 +11,18 @@ ul.subMenu>li{
     }
     >ul{
         width: calc(80vw);
-        height: 480px;
+        height: 450px;
         background-color: rgba(128, 128, 128, 0);
         position:absolute;
-        left:calc(17vw);
-        top: calc(80px);
+        left:calc(15vw);
+        top: calc(15px);
         display: none !important;
         &:hover{
             display: flex !important;
             }
+        >li{
+            margin-right: 50px !important;
+          }
         }
         &:nth-of-type(4)>ul>li,&:nth-of-type(5)>ul>li,&:nth-of-type(6)>ul>li
         ,&:nth-of-type(7)>ul>li,&:nth-of-type(8)>ul>li,&:nth-of-type(9)>ul>li
@@ -36,18 +43,32 @@ ul.subMenu>li{
             >ul>li>a{
                 font-size: 13px;
                 color:rgb(119, 119, 119);
-            }
-            
-            
+            }  
         }
     }
-    
+
     div#eCatalogue1 ,div#Inspiration1{
         height:inherit;
         text-align: center;
         // background-color: aqua;
-        max-height: 480px;
+        max-height: 440px;
     } 
+    div#eCatalogue1{
+        border: none !important;
+        box-shadow:none !important;
+
+     >div.card-body{
+            >h6{
+                margin-top: -34px !important;
+            } 
+            }
+
+        >img{
+            margin-top:-34px !important;
+            width: 250px;
+        }
+     }
+
 
     div#Inspiration1{
         >a{
@@ -64,5 +85,23 @@ ul.subMenu>li{
             }
         }
     }
+div.drop{
+    position:absolute;
+    z-index: 1;
+    display: flex;
+    width: 98vw;
+    overflow:auto;
+    top: 70px;
+}
+  
 
-    
+i.bi-x{
+    display: none;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+@media only screen and (max-width:992px){
+    div.menuTop>div:nth-of-type(1)>span>a:nth-of-type(1)>button:nth-of-type(1){
+        display: none;
+    }
+}

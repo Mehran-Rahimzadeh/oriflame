@@ -9,6 +9,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./icons/bootstrap-icons/font/bootstrap-icons.min.css"> 
     <link rel="stylesheet" href="./css/main.css">
+
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+  rel="stylesheet"
+/>
     
 
 </head>
@@ -19,14 +34,32 @@
 
 
     <!-------------menuTop------------->
-    <div class="mt-3 menuTop container-fluid d-flex justify-content-between align-items-center" >
+    <div class="mt-3 menuTop container-fluid d-flex justify-content-between align-items-center mb-1" >
         <div class="container-fluid col-4 col-lg-4  d-flex  align-items-center">
                 <span class="col-lg-2   col-md-2 col-sm-3 col-6  d-flex justify-content-start d-flex mb-sm-2">
-                     <a href="#"><i class="bi bi-list h1 text-black-50 "></i></a>
+                     <a href="#"> <button class="navbar-toggler"
+                     aria-haspopup="true"
+                     type="button"
+                     data-mdb-toggle="collapse"
+                     data-mdb-target="#navbarToggleExternalContent2"
+                     aria-controls="navbarToggleExternalContent1"
+                     aria-expanded="false"
+                     aria-label="Toggle navigation">
+                     <i class="bi bi-list h1 text-black-50 "></i>
+                     <i class="bi bi-x h1 text-black-50"></i>
+                     
+                    </button>
+                    <button class="navbar-toggler d-lg-none">
+                     
+                     <i class=" bi bi-list h1 text-black-50"></i>
+                    </button>
+                </a>
+                    
                     </span>
                 <span class="col-lg-2  col-md-10 col-sm-9 col-6 d-flex">
-                    <a href="#" data-bs-toggle="offcanvas" data-bs-target="#demo"><i class="bi bi-person h4 text-black-50 d-none d-lg-flex"></i></a>
-                   <a href="#"> <i class="bi-search text-black-50 d-lg-none ms-2"></i>
+                    <a href="#" data-bs-toggle="offcanvas" data-bs-target="#demo"><i class="bi bi-person h4 text-black-50"></i>
+                    </a>
+                    <a href="#"> <i class="bi-search text-black-50 d-lg-none ms-2"></i>
                     </a>
                 </span>
                 <span class="col-3  align-items-center  d-none d-lg-flex"><a href="#" class="fw-bold text-black">Our story</a></span>
@@ -45,68 +78,25 @@
     </div>
         <!------------End of menuTop------------->
 
+
   <!-------------Best Offers------------->
-  <!-- <div class="bestOffers  d-flex w-100 border border-start-0 border-end-0 border-bottom-0 d-none d-lg-flex">
-    <div class="offersList container-fluid d-flex flex-column  align-items-start col-2 p-0 pt-3">
-       <ul class="list-unstyled  d-flex flex-column justify-content-between h-100 w-100">
-            <li id="BestOffers" href="#"><a  href="#">Best Offers</a></li>
-            <li id="eCatalogue"><a href="#">eCatalogue</a>
-                
-            </li>
-            <li id="Inspiration"><a href="#">Inspiration</a></li>
-            <li id="Skin-care"> <a href="#">Skin care</a></li>
-            <li id="Make-Up"><a href="#">Make-Up</a></li>
-            <li id="Fragrance"><a href="#">Fragrance</a></li>
-            <li id="Bath-Body"><a href="#">Bath & Body</a></li>
-            <li id="Hair"><a href="#">Hair</a></li>
-            <li id="Accessories"><a href="#">Accessories</a></li>
-            <li id="Wellness"><a href="#">Wellness</a></li>
-            <li id="Men"><a href="#">Men</a></li>
-            <li id="Kids-Baby"><a href="#">Kids & Baby</a></li>
-            <li id="Novelties"><a href="#">Novelties</a></li>
-            <li id="Beauty-Rewards"><a href="#">Beauty Rewards<br>Programme</a></li>
-       </ul> 
-    </div>
-
-    <div class="offersImage container-fluid border-start col-10 d-flex bg-danger" id="bala">
-
-        <div id="eCatalogue1" class="card m-auto d-none f-col-center border-0 bg-info">
-            <div class="card-body">
-              <h6 class="card-title m-auto fw-bold text-center mb-3">Catalogue 09</h6>
-              <p class="card-text h6 small text-center">7.6.2023 - 28.6.2023</p>
-            </div>
-            <img class="card-img-bottom m-auto rounded-3" src="./medial/images/normal.jpg" alt="Card image" style="width: 260px;">
-            <a class="p-3" href="#">
-                <p class="text-decoration-underline small text-dark">SEE ALL</p>
-            </a>
-        </div>
-        <div id="Inspiration1" class="d-none m-auto align-items-center ">
-            <a href=""><img src="./medial/images/contentImage-1.jpeg" alt=""></a>
-            <a href=""><img src="./medial/images/contentImage-2.jpeg" alt=""></a>
-            <a href=""><img src="./medial/images/contentImage-3.jpeg" alt=""></a>
-        </div>
-    </div>
-</div> -->
- <!-------------End of Best Offers------------->
-
-
-  <!-------------Best Offers-2------------->
-  <div class="bestOffers  d-flex w-100 border border-start-0 border-end-0 border-bottom-0 d-none d-lg-flex">
-    <div class="offersList container-fluid d-flex flex-column  align-items-start col-2 p-0 pt-3">
+  <div class="drop bg-light collapse "tabindex="-1" id="navbarToggleExternalContent2" >
+  <div class="bestOffers  w-100 border border-start-0 border-end-0 border-bottom-0 d-none d-lg-flex" >
+    <div class="offersList container-fluid d-flex flex-column  align-items-start col-2 p-0 pt-3 ">
        <ul class="subMenu list-unstyled  d-flex flex-column justify-content-between h-100 w-100">
             <li id="BestOffers" href="#"><a  href="#">Best Offers</a></li>
 
             <li id="eCatalogue"><a href="#">eCatalogue</a>
-                <Ul class="d-none">
-                    <li class="container-fluid f-flex h-100">
-                        <div id="eCatalogue1" class="container-fluid card m-auto d-flex f-col-center border-0">
-                            <div class="card-body d-flex flex-column">
-                              <h6 class="card-title m-auto fw-bold text-center mb-3">Catalogue 09</h6>
-                              <p class="card-text h6 small text-center">7.6.2023 - 28.6.2023</p>
+                <Ul class="d-none p-2">
+                    <li class="container-fluid d-flex h-100 ">
+                        <div id="eCatalogue1" class="container-fluid card m-auto d-flex f-col-center bg-light w-50">
+                            <div class="card-body d-flex flex-column ">
+                              <h6 class="card-title text-center fw-bold text-center">Catalogue 09</h6>
+                              <p class="card-text h6 small text-center mt-3">7.6.2023 - 28.6.2023</p>
                             </div>
-                            <img class="card-img-bottom m-auto rounded-3" src="./medial/images/normal.jpg" alt="Card image" style="width: 250px;">
-                            <a class="p-3" href="#">
-                                <p class="text-decoration-underline small text-dark text-center">SEE ALL</p>
+                            <img class="  rounded-3 d-flex mt-0" src="./medial/images/normal.jpg" alt="Card image">
+                            <a class="d-flex" href="#">
+                                <p class="card-text text-decoration-underline small text-dark text-center m-0 mt-1">SEE ALL</p>
                             </a>
                         </div>
                     </li>
@@ -114,8 +104,8 @@
                 
             </li>
             <li id="Inspiration"><a href="#">Inspiration</a>
-                <ul class="d-none justify-content-center">
-                    <li class="d-flex ">
+                <ul class="d-none justify-content-center p-5">
+                    <li class="d-flex ps-5">
                         <div id="Inspiration1" class="m-auto align-items-center d-flex flex-row">
                             <a href="#"><img class="p-1 rounded-3" src="./medial/images/contentImage-1.jpeg" alt=""><span class="h4 fw-bold text-white">Editorials</span></a>
                             <a href="#"><img class="p-1 rounded-3" src="./medial/images/contentImage-2.jpeg" alt=""><span class="h4 fw-bold text-white">Ingredient library</span></a>
@@ -125,7 +115,7 @@
                 </ul>
             </li>
             <li id="Skin-care"> <a href="#">Skin care</a>
-                <ul class="d-flex flex-row justify-content-start">
+                <ul class="d-flex flex-row justify-content-start p-5">
                     <li class=""><a href="#" class="h6 text-center "><i class="bi bi-brush p-2"></i>What's new</a>
                         <ul class="mt-2"><a href="#">Moisturisers</a>
                             <li><a href="">Day cream</a></li>
@@ -193,7 +183,7 @@
                 </ul>
             </li>
             <li id="Make-Up"><a href="#">Make-Up</a>
-                <ul class="d-flex flex-row justify-content-start">
+                <ul class="d-flex flex-row justify-content-start p-5">
                     <li class=""><a href="#" class="h6 text-center "><i class="bi bi-brush p-2"></i>What's new</a>
                         <ul class="mt-2"><a href="#">Face</a>
                             <li><a href="">Foundation</a></li>
@@ -245,7 +235,7 @@
                 </ul>
             </li>
             <li id="Fragrance"><a href="#">Fragrance</a>
-                <ul class="d-flex flex-row justify-content-start">
+                <ul class="d-flex flex-row justify-content-start p-5">
                     <li class=""><a href="#" class="h6 text-center "><i class="bi bi-brush p-2"></i>What's new</a>
                         <ul class="mt-2"><a href="#">Face</a>
                             <li><a href="">Foundation</a></li>
@@ -268,7 +258,7 @@
                     </ul>
             </li>
             <li id="Bath-Body"><a href="#">Bath & Body</a>
-                <ul class="d-flex flex-row justify-content-start">
+                <ul class="d-flex flex-row justify-content-start p-5">
                     <li class=""><a href="#" class="h6 text-center "><i class="bi bi-brush p-2"></i>What's new</a>
                         <ul class="mt-2"><a href="#">Body care</a>
                             <li><a href="">Body moisturiser</a></li>
@@ -316,7 +306,7 @@
 
             </li>
             <li id="Hair"><a href="#">Hair</a>
-                <ul class="d-flex flex-row justify-content-start">
+                <ul class="d-flex flex-row justify-content-start p-5">
                     <li class=""><a href="#" class="h6 text-center "><i class="bi bi-brush p-2"></i>What's new</a>
                         <ul class="mt-2"><a href="#">Shampoo</a>
                         </ul>
@@ -345,7 +335,7 @@
                 </ul>
             </li>
             <li id="Accessories"><a href="#">Accessories</a>
-                <ul class="d-flex flex-row justify-content-start">
+                <ul class="d-flex flex-row justify-content-start p-5">
                     <li class=""><a href="#" class="h6 text-center "><i class="bi bi-brush p-2"></i>What's new</a>
                         <ul class="mt-2"><a href="#">Jewellery</a>
                             <li><a href="">Earrings</a></li>
@@ -370,7 +360,7 @@
                 </ul>
             </li>
             <li id="Wellness"><a href="#">Wellness</a>
-                <ul class="d-flex flex-row justify-content-start">
+                <ul class="d-flex flex-row justify-content-start p-5">
                     <li class="">
                         <ul class="mt-2"><a href="#">Supplements & Nutrition</a>
                             <li><a href="">Shakes</a></li>
@@ -395,7 +385,7 @@
                 </ul>
             </li>
             <li id="Men"><a href="#">Men</a>
-                <ul class="d-flex flex-row justify-content-start">
+                <ul class="d-flex flex-row justify-content-start p-5">
                     <li class=""><a href="#" class="h6 text-center "><i class="bi bi-brush p-2"></i>What's new</a>
                         <ul class="mt-2"><a href="#">Skin care</a>
                             <li><a href="">Cleanser</a></li>
@@ -435,7 +425,7 @@
                 </ul>
             </li>
             <li id="Kids-Baby"><a href="#">Kids & Baby</a>
-                <ul class="d-flex flex-row justify-content-start">
+                <ul class="d-flex flex-row justify-content-start p-5">
                     <li class="">
                         <ul class="mt-2"><a href="#">Kids</a>
                             <li><a href="">Hair & Body wash</a></li>
@@ -470,20 +460,18 @@
                 <p class="text-decoration-underline small text-dark">SEE ALL</p>
             </a>
         </div>
-
-       
-        
-        
-          
-        
-
-
     </div>
-    
-    
+</div>
 </div>
  <!-------------End of Best Offers------------->
 
+
+ <div class="mehran">
+ <h1 >sddvdv</h1>
+ <p >
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui facilis id rem quidem
+  laudantium sequi quod incidunt aut officiis neque numquam vel deleniti consequatur quos accusamus 
+  nihil, porro placeat?</p></div>
 
 
         <!-- offcanvas sidebar -->
@@ -506,13 +494,13 @@
                 <input class="d-block m-auto form-control-plaintext border-bottom" type="email" >
                 <p class="small mt-2 mb-0">Password*</p>
                 <input class="d-block m-auto form-control-plaintext border-bottom" type="email" ><br>
-                <button class="btn btn-success d-flex m-auto w-75 rounded-5" type="button">
-                    <p class="small fw-bold d-block m-auto mt-0">SIGN IN</p>
+                <button class="btn btn-success d-flex m-auto w-75 rounded-pill" type="button">
+                    <p class="fw-bold d-block m-auto mt-0 text-light">SIGN IN</p>
                 </button>
-                <a href="#" class="d-flex "><p class="m-auto small text-dark text-decoration-underline">Forgot password ? </p></a>
-                <button class="btn  d-flex m-auto w-75 rounded-5 mt-5 shadow" type="button">
-                <i class="bi bi-facebook text-primary h4 m-auto"></i>
-                <p class="h6 small fw-bold d-block m-auto">Continue with Facebook</p>
+                <a id="forget" href="#" class="d-flex "><p class="m-auto small text-dark text-decoration-underline">Forgot password ? </p></a>
+                <button class="btn  d-flex align-items-center m-auto w-75 rounded-pill mt-4 shadow" type="button">
+                <i class="bi bi-facebook text-primary h4 "></i>
+                <p class="d-block m-auto">Continue with Facebook</p>
                 </button>
                 <div class="d-flex flex-column m-auto mt-1">
                     <p class="h4 mx-auto ">Register</p>
@@ -528,13 +516,15 @@
         </div>
         <!-- End ofoffcanvas sidebar -->
 
-
-
-
 </div>
     <!-- End of Project --> 
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
     <!-- <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"
+></script>
 </body>
 </html>
