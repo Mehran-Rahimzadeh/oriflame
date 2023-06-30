@@ -73,7 +73,7 @@ div#Inspiration1 > a {
 
 div.drop {
   position: absolute;
-  z-index: 1;
+  z-index: 3 !important;
   display: flex;
   width: 98vw;
   overflow: auto;

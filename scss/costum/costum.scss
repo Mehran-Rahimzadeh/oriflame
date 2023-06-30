@@ -2,16 +2,17 @@
 @import url(./offcanvas.css);
 @import url(./subMenu.css);
 @import url(./bestOffers.css); 
+@import url(./swiper.css); 
 
 
 
 
-// -------------hover apear------------
-.active{
+// -----------------hover apear-----------------------
+.Active{
     display: flex!important;
-    transition-delay: 30000ms;
+  
 }
-   
 .noneActive{
     display: none !important;
    }
+// ---------------End of hover apear---------------------

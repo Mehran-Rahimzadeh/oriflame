@@ -17,12 +17,12 @@ function hover(id_1,id_2){
     document.querySelector(id_1).
     addEventListener("mouseenter",function(){
         document.getElementById(id_2).classList.remove("noneActive");
-        document.getElementById(id_2).classList.add("Active")
+        document.getElementById(id_2).classList.add("active")
    })}
 function not_hover(id_1,id_2){
     document.querySelector(id_1).
     addEventListener("mouseleave",function(){
-        document.getElementById(id_2).classList.remove("Active");
+        document.getElementById(id_2).classList.remove("active");
         document.getElementById(id_2).classList.add("noneaAtive")
     })}
 // --------End of hover-Function-----------------------
@@ -33,14 +33,11 @@ let menuIcon =document.querySelector("div.menuTop>div:nth-of-type(1)>span>a:nth-
 let closeIcon =document.querySelector("div.menuTop>div:nth-of-type(1)>span>a:nth-of-type(1)>button>i:nth-of-type(2)");
 menuIcon.addEventListener("click",function(){
     this.classList.add("noneActive");
-    closeIcon.classList.add("Active")
+    closeIcon.classList.add("active")
 },false)
 closeIcon.addEventListener("click",function(){
-    this.classList.remove("Active");
+    this.classList.remove("active");
     menuIcon.classList.remove("noneActive")
 },false)
 // -------End of List Icon VS Close icon-----------------------
-
-
-
 

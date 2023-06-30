@@ -2,9 +2,9 @@
 @import url(./offcanvas.css);
 @import url(./subMenu.css);
 @import url(./bestOffers.css);
-.active {
-  display: flex !important;
-  transition-delay: 30000ms; }
+@import url(./swiper.css);
+.Active {
+  display: flex !important; }
 
 .noneActive {
   display: none !important; }
