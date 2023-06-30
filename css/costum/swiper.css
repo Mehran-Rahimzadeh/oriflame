@@ -29,8 +29,8 @@
 
 div.sliderText {
   position: absolute;
-  top: 40%;
-  right: 13%; }
+  top: 25% !important;
+  right: 13% !important; }
   div.sliderText div {
     background-color: rgba(128, 128, 128, 0.301) !important;
     max-width: 170px; }
