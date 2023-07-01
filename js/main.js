@@ -41,6 +41,27 @@ closeIcon.addEventListener("click",function(){
 },false)
 // -------End of List Icon VS Close icon-----------------------
 
+// -------nav1------------
+// $('.toggle').click(function(){
+//     $('.nav').toggleClass("justify-content-end");
+//     $('.toggle').toggleClass("text-light");
+// });
+// -------nav1----------
+let arrow = document.querySelector("nav.nav1>div>a.toggle")
+let navi = document.querySelector("nav.nav1>ul.nav")
+console.log(arrow)
+console.log(navi)
+arrow.addEventListener("click",function(){
+    navi.toggleClass("justify-content-end");
+    arrow.toggleClass("text-light");
+});
+
+
+// arrow.click(function(){
+//     navi.toggleClass("justify-content-end");
+//     arrow.toggleClass("text-light");
+// });
+
 
 
 

@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box !important;
-  text-decoration: none; }
+  text-decoration: none;
+  list-style: none; }
 
-a{
-  text-decoration: none !important; }
+a {
+  text-decoration: none; }
 
 @font-face {
   font-family: sans;
@@ -16,11 +17,3 @@ a{
 
 body {
   font-family: sans !important; }
-
-  p{
-    color:rgb(51, 51, 51);
-}
-
-ul,li{
-  list-style: none;
-}
