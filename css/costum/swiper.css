@@ -28,7 +28,7 @@
   background-color: #fff !important; }
 
 div.sliderText {
-  position: absolute;
+  position: absolute !important;
   top: 25% !important;
   right: 13% !important; }
   div.sliderText div {

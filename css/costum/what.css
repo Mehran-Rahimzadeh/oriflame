@@ -1,0 +1,40 @@
+div.what {
+  max-width: 1346px !important; }
+  div.what img {
+    width: 100%;
+    height: auto; }
+  div.what > div.bodyy > div.left > a > button {
+    position: relative !important;
+    top: -23% !important;
+    left: 36% !important;
+    background-color: rgba(0, 0, 0, 0.086) !important;
+    -webkit-tap-highlight-color: transparent;
+    min-width: 64px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: none;
+    backdrop-filter: blur(30px);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 1.7;
+    padding: 10px 30px; }
+  div.what > div.bodyy > div.right > div {
+    flex-direction: column !important;
+    justify-content: start !important;
+    align-items: end !important;
+    padding-right: 0px !important; }
+    div.what > div.bodyy > div.right > div > a:nth-of-type(1) {
+      background-color: #f4f4f4; }
+      div.what > div.bodyy > div.right > div > a:nth-of-type(1) > img {
+        padding: 15px; }
+      div.what > div.bodyy > div.right > div > a:nth-of-type(1) > div {
+        margin-top: -30px;
+        position: relative !important;
+        bottom: 18% !important;
+        left: 71%;
+        display: inline-block; }
+    div.what > div.bodyy > div.right > div > a:nth-of-type(2) > div > p:nth-of-type(1) {
+      font-size: 10px;
+      margin-bottom: 0px !important; }
