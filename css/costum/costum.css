@@ -6,6 +6,7 @@
 @import url(./nav.css);
 @import url(./what.css);
 @import url(./best.css);
+@import url(./newOffer.css);
 .Active {
   display: flex !important; }
 
