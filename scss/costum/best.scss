@@ -5,10 +5,26 @@ div.best{
         height: auto;
     }
     >div.left>div.bodyy{
-        div>a{
+        >div>a:nth-of-type(1){
             background-color: #f4f4f4;
-            
-        }
-        
+            overflow: hidden;
+            >div{
+                margin-top: -30px;
+                position: relative !important;
+                bottom: 18% !important; 
+                left: 71%;
+                display:inline-block;
+                }
+            }
+            >div>a:nth-of-type(2)>div{
+                >p:nth-of-type(1){
+                    font-size: 10px; 
+                    margin-bottom: 0px !important;
+                }
+            }
      } 
+}
+
+*{
+    // outline: solid 1px red !important;
 }
