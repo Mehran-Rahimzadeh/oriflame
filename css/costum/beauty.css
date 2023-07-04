@@ -1,0 +1,6 @@
+div.beauty {
+  max-width: 1230px !important; }
+  div.beauty > div.up > div.head {
+    max-width: 600px !important; }
+  div.beauty > div.down img {
+    max-width: 600px !important; }

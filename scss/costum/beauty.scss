@@ -1,0 +1,13 @@
+div.beauty{
+    max-width: 1230px !important;
+    >div.up{
+        >div.head{
+            max-width: 600px !important; 
+        }
+    }
+    >div.down{
+        img{
+            max-width: 600px !important;
+        }
+    }
+}
