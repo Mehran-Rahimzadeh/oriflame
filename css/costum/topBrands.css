@@ -1,0 +1,10 @@
+div.topBrands > div.bodyy > div > a > img {
+  width: 200px; }
+
+@media only screen and (max-width: 992px) {
+  div.topBrands > div.bodyy > div > a > img {
+    width: 150px; } }
+
+@media only screen and (max-width: 350px) {
+  div.topBrands > div.bodyy > div > a > img {
+    width: 100px; } }
