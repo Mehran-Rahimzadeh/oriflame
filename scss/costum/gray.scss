@@ -1,0 +1,17 @@
+div.gray{
+    background-color: #f0effc;
+    >div.down>button,{
+        background-color: #f0effc;
+    }
+}
+
+@media only screen and (min-width:768px){
+    div.gray{
+        >div.up-2 p{
+            text-align: center;
+        }
+        >div.up-2 h5{
+            text-align: center;
+        }
+    }
+}
