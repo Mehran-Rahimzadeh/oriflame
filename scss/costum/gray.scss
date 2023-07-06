@@ -7,6 +7,14 @@ div.gray{
 
 @media only screen and (min-width:768px){
     div.gray{
+        display: flex;
+        align-items: center;
+        >div.up-2{
+            max-width: 1200px;
+            text-align: center;
+            margin: auto;
+
+        }
         >div.up-2 p{
             text-align: center;
         }

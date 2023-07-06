@@ -4,7 +4,14 @@ div.gray {
     background-color: #f0effc; }
 
 @media only screen and (min-width: 768px) {
-  div.gray > div.up-2 p {
-    text-align: center; }
-  div.gray > div.up-2 h5 {
-    text-align: center; } }
+  div.gray {
+    display: flex;
+    align-items: center; }
+    div.gray > div.up-2 {
+      max-width: 1200px;
+      text-align: center;
+      margin: auto; }
+    div.gray > div.up-2 p {
+      text-align: center; }
+    div.gray > div.up-2 h5 {
+      text-align: center; } }
