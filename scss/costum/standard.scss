@@ -1,0 +1,22 @@
+div.standard{
+    p{
+        max-width: 750px; 
+    }
+    >div{
+        max-width: 1032px; 
+        >div{
+            width: 162px;
+            >img{ 
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px ){
+    div.standard>div>div{
+                width: 110px;
+                min-width: 110px;
+            }
+        }
+    

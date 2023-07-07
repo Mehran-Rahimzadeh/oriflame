@@ -1,0 +1,36 @@
+div.playVideo {
+  max-width: 800px; }
+  div.playVideo > div.videoParent {
+    position: relative; }
+
+.overlay-play-button__overlay {
+  /* Position */
+  left: 0;
+  position: absolute;
+  top: 0;
+  /* Take full size */
+  height: 100%;
+  width: 100%;
+  /* Center the content */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  transition: opacity 400ms;
+  /* Add a dark background */
+  background-color: rgba(0, 0, 0, 0.15); }
+
+.overlay-play-button__play {
+  padding: 0 !important;
+  display: flex;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  /*Centerthecontent*/
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
