@@ -1,45 +1,32 @@
-div.subscribe > div.news {
-  background-color: #007681; }
-  div.subscribe > div.news > a > p > svg {
-    color: white !important;
-    width: 25px !important;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    fill: currentcolor; }
-
-div.subscribe > div.support {
-  background-color: #f5f5f5;
-  max-width: 1000px; }
-  div.subscribe > div.support > div.apps {
-    max-width: 150px !important; }
-    div.subscribe > div.support > div.apps > div > img {
-      width: 35px; }
-    div.subscribe > div.support > div.apps > p {
-      font-size: 20px; }
-    div.subscribe > div.support > div.apps > a {
-      font-size: 14px;
-      color: #333333;
-      line-height: 35px; }
-      div.subscribe > div.support > div.apps > a:hover {
-        color: #0E7C5D !important; }
-  div.subscribe > div.support > div.left > ul > li > ul > li {
-    text-align: left; }
-    div.subscribe > div.support > div.left > ul > li > ul > li > a {
-      font-size: 14px;
-      color: #333333;
-      line-height: 35px; }
-  div.subscribe > div.support > div.left > ul > li > ul > p {
-    font-size: 14px; }
-
-div.subscribe > div.apps {
-  max-width: 150px !important; }
-  div.subscribe > div.apps > div > img {
-    width: 35px; }
-  div.subscribe > div.apps > p {
-    font-size: 20px; }
-  div.subscribe > div.apps > a {
-    font-size: 14px;
-    color: #333333;
-    line-height: 35px; }
-    div.subscribe > div.apps > a:hover {
-      color: #0E7C5D !important; }
+div.subscribe {
+  background-color: #f5f5f5; }
+  div.subscribe > div.news {
+    background-color: #007681; }
+    div.subscribe > div.news > a > p > svg {
+      color: white !important;
+      width: 25px !important;
+      margin-bottom: 5px;
+      margin-right: 10px;
+      fill: currentcolor; }
+  div.subscribe > div.support {
+    max-width: 1000px; }
+    div.subscribe > div.support > div.apps {
+      max-width: 150px !important; }
+      div.subscribe > div.support > div.apps > div > img {
+        width: 35px; }
+      div.subscribe > div.support > div.apps > p {
+        font-size: 20px; }
+      div.subscribe > div.support > div.apps > a {
+        font-size: 14px;
+        color: #333333;
+        line-height: 35px; }
+        div.subscribe > div.support > div.apps > a:hover {
+          color: #0E7C5D !important; }
+    div.subscribe > div.support > div.left > ul > li > ul > li {
+      text-align: left; }
+      div.subscribe > div.support > div.left > ul > li > ul > li > a {
+        font-size: 14px;
+        color: #333333;
+        line-height: 35px; }
+    div.subscribe > div.support > div.left > ul > li > ul > p {
+      font-size: 14px; }

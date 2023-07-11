@@ -1,5 +1,5 @@
 div.subscribe{
- 
+    background-color: #f5f5f5;
     >div.news{
         background-color: #007681; 
         >a>p>svg{
@@ -11,9 +11,8 @@ div.subscribe{
         }
     }
     >div.support{
-        background-color: #f5f5f5;
         max-width: 1000px;
-       
+
         >div.apps{
             max-width: 150px !important;
             >div>img{
@@ -48,23 +47,5 @@ div.subscribe{
                 }
              }
           } 
-    }
-    >div.apps{
-        max-width: 150px !important;
-        >div>img{
-            width: 35px;
-        }
-        >p{
-            font-size: 20px;
-        }
-        >a{
-            font-size: 14px;
-            color: #333333;
-            line-height:35px;
-            &:hover{
-                color: #0E7C5D !important;
-                
-            }
-        }
     }
 }

@@ -1,5 +1,17 @@
 div.footer {
   max-width: 600px; }
+  div.footer > div.apps {
+    max-width: 150px !important; }
+    div.footer > div.apps > div > img {
+      width: 35px; }
+    div.footer > div.apps > p {
+      font-size: 20px; }
+    div.footer > div.apps > a {
+      font-size: 14px;
+      color: #333333;
+      line-height: 35px; }
+      div.footer > div.apps > a:hover {
+        color: #0E7C5D !important; }
   div.footer > p {
     color: #333333;
     font-size: 12px;

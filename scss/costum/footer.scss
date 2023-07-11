@@ -1,4 +1,22 @@
 div.footer{
+    >div.apps{
+        max-width: 150px !important;
+        >div>img{
+            width: 35px;
+        }
+        >p{
+            font-size: 20px;
+        }
+        >a{
+            font-size: 14px;
+            color: #333333;
+            line-height:35px;
+            &:hover{
+                color: #0E7C5D !important;
+                
+            }
+        }
+    }
     max-width:600px ;
    >p{
       color:#333333;
