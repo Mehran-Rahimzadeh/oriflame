@@ -61,19 +61,3 @@ arrow.addEventListener("click",function(){
 //     navi.toggleClass("justify-content-end");
 //     arrow.toggleClass("text-light");
 // });
-let vidopPlayer = document.querySelector("")
-let video = document.querySelector(".myVideo")
-let playButton = document.querySelector(".overlay-play-button__play")
-
-playButton.addEventListener("click", (e)=> {
-    if(video.paused)
-    video.play()
-    e.target.HTMLElement=" "
-    else {
-        video.pause()
-        e.target.HTMLElement("<i class="bi bi-pause-fill"></i>")
-    }
-})
-
-
-HTMLElement

@@ -1,0 +1,14 @@
+div.footer {
+  max-width: 600px; }
+  div.footer > p {
+    color: #333333;
+    font-size: 12px;
+    line-height: 19.92px;
+    vertical-align: baseline; }
+  div.footer > div > a {
+    font-size: 14px;
+    line-height: 21px;
+    vertical-align: baseline;
+    cursor: pointer; }
+    div.footer > div > a:hover {
+      color: #0E7C5D !important; }

@@ -14,6 +14,8 @@
 @import url(./playVideo.css);
 @import url(./standard.css);
 @import url(./follow.css);
+@import url(./subscribe.css);
+@import url(./footer.css);
 .Active {
   display: flex !important; }
 
